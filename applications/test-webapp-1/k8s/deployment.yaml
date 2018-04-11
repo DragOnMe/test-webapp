@@ -23,7 +23,7 @@ metadata:
 spec:
   replicas: 1
   strategy:
-    rollingupdate:
+    rollingUpdate:
       maxSurge: 1       # One by one
       maxUnavailable: 0 # Wait for a new pod before killing one pod
     type: RollingUpdate
